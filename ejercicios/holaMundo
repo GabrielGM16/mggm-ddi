@@ -1,0 +1,13 @@
+void main() {
+ String name = 'juan';
+  late final int version;
+  const myName = 'Chuy';
+  
+  version = 12;
+  
+  print("Hola $name ");
+  print("Hola ${name.toUpperCase()} ");
+  print("Hola ${1+1}");
+  print("No. de version ${version}");
+  print("Constantes ${myName} ");
+}
